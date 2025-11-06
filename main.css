@@ -987,7 +987,7 @@ section,
 }
 
 .about .intro-content .lead {
-  font-size: 18px;
+  font-size: 15px;
   line-height: 1.8;
   color: color-mix(in srgb, var(--default-color), transparent 10%);
   margin-bottom: 24px;
@@ -1002,6 +1002,7 @@ section,
     
 
 .about .intro-content p {
+    font-size: 10px;
   line-height: 1.8;
   margin-bottom: 24px;
   color: color-mix(in srgb, var(--default-color), transparent 5%);
