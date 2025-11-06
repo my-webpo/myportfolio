@@ -764,7 +764,7 @@ section,
 
 @media (max-width: 768px) {
   .hero .hero-content h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 }
 
@@ -782,7 +782,7 @@ section,
 
 @media (max-width: 768px) {
   .hero .hero-content h2 {
-    font-size: 1.25rem;
+    font-size: 1rem;
   }
 }
 
@@ -938,7 +938,7 @@ section,
 
 @media (max-width: 992px) {
   .hero .hero-image .floating-elements .floating-card {
-    display: none;
+    display: flex;
   }
 }
 
@@ -982,7 +982,7 @@ section,
 }
 
 .about .intro-content .lead {
-  font-size: 18px;
+  font-size: 10px;
   line-height: 1.8;
   color: color-mix(in srgb, var(--default-color), transparent 10%);
   margin-bottom: 24px;
