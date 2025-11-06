@@ -1002,8 +1002,8 @@ section,
     
 
 .about .intro-content p {
-    font-size: 10px;
-  line-height: 1.8;
+  font-size: 10px;
+  line-height: 1.5;
   margin-bottom: 24px;
   color: color-mix(in srgb, var(--default-color), transparent 5%);
   text-align: center;
@@ -1011,9 +1011,11 @@ section,
 
 .about .intro-content .cta-group {
   display: flex;
-  gap: 24px;
+  gap: 10px;
   align-items: center;
   margin-top: 24px;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 .about .intro-content .cta-group .btn-ghost {
