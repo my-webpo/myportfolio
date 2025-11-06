@@ -740,8 +740,8 @@ section,
 }
 
 .hero .hero-content h1 {
-  font-size: 3.5rem;
-  font-weight: 700;
+  font-size: 3rem;
+  font-weight: 650;
   margin-bottom: 1rem;
   line-height: 1.2;
 }
@@ -769,8 +769,8 @@ section,
 }
 
 .hero .hero-content h2 {
-  font-size: 1.5rem;
-  font-weight: 400;
+  font-size: 1rem;
+  font-weight: 350;
   margin-bottom: 2rem;
   color: color-mix(in srgb, var(--default-color), transparent 20%);
 }
@@ -807,7 +807,12 @@ section,
   transition: all 0.3s ease;
   border: 2px solid;
 }
-
+@media {
+  .hero .hero-action .btn {
+ padding: 8px 20px;
+  }
+}
+  
 .hero .hero-actions .btn:hover {
   color: var(--background-color);
   transform: translateY(-1px);
@@ -982,11 +987,19 @@ section,
 }
 
 .about .intro-content .lead {
-  font-size: 10px;
+  font-size: 18px;
   line-height: 1.8;
   color: color-mix(in srgb, var(--default-color), transparent 10%);
   margin-bottom: 24px;
 }
+
+@media (max-width: 576px) {
+  .about .intro-content .lead {
+      font-size: 10px;
+  }
+}
+
+    
 
 .about .intro-content p {
   line-height: 1.8;
