@@ -995,14 +995,14 @@ section,
 
 @media (max-width: 576px) {
   .about .intro-content .lead {
-      font-size: 10px;
+      font-size: 8px;
   }
 }
 
     
 
 .about .intro-content p {
-  font-size: 10px;
+  font-size: 8px;
   line-height: 1.5;
   margin-bottom: 24px;
   color: color-mix(in srgb, var(--default-color), transparent 5%);
